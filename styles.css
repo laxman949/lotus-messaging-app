@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LOTUS is a premium messaging platform for private chats, groups, stories, media sharing, and secure conversations."
+    />
+    <title>LOTUS — Connect. Chat. Stay close.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient-one"></div>
+      <div class="ambient ambient-two"></div>
+      <div class="network-lines" aria-hidden="true"></div>
+      <div class="particles" aria-hidden="true"></div>
+
+      <header class="site-header container">
+        <nav class="nav">
+          <a href="#top" class="brand" aria-label="LOTUS home">
+            <span class="brand-mark">
+              <span class="lotus-core"></span>
+              <span class="petal petal-one"></span>
+              <span class="petal petal-two"></span>
+              <span class="petal petal-three"></span>
+              <span class="petal petal-four"></span>
+            </span>
+            <span class="brand-text">LOTUS</span>
+          </a>
+
+          <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#experience">Experience</a>
+            <a href="#security">Security</a>
+            <a href="#pricing">Pricing</a>
+          </div>
+
+          <div class="nav-actions">
+            <button class="ghost-button">Sign In</button>
+            <button class="primary-button">Get Started</button>
+          </div>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero container">
+          <div class="hero-copy">
+            <div class="eyebrow">Private, fast, beautifully connected</div>
+            <h1>LOTUS — Connect. Chat. Stay close.</h1>
+            <p>
+              Thoughtful conversations, shared moments, and secure communities—crafted for the way people stay close in real life.
+            </p>
+
+            <div class="hero-actions">
+              <button class="primary-button large">Get Started</button>
+              <button class="secondary-button large">Watch Demo</button>
+            </div>
+
+            <div class="sign-in-panel">
+              <div class="divider"><span>Continue with</span></div>
+              <div class="signin-grid">
+                <button class="google-button" type="button">
+                  <span class="google-icon">
+                    <svg viewBox="0 0 48 48" aria-hidden="true">
+                      <path fill="#EA4335" d="M24 9.5c3.54 0 6.7 1.22 9.19 3.6l6.85-6.85C35.91 2.42 30.57 0 24 0 14.64 0 6.47 5.38 2.52 13.22l7.98 6.18C12.16 13.75 17.46 9.5 24 9.5z"/>
+                      <path fill="#4285F4" d="M46.5 24.55c0-1.64-.15-3.22-.42-4.74H24v9h12.72c-.55 2.96-2.23 5.47-4.75 7.15l7.7 5.97C43.93 35.82 46.5 30.75 46.5 24.55z"/>
+                      <path fill="#FBBC05" d="M32.72 36.96c-2.05 1.38-4.67 2.19-8.72 2.19-6.54 0-12.08-4.42-14.05-10.36l-8.01 6.21C5.35 42.32 13.87 48 24 48c7.21 0 13.27-2.37 17.7-6.46l-8.98-4.58z"/>
+                      <path fill="#34A853" d="M9.95 28.79c-.53-1.58-.83-3.28-.83-5.03s.3-3.45.83-5.03l-8.01-6.21A23.97 23.97 0 000 9.5c0 3.85.93 7.48 2.56 10.74l7.39-6.45z"/>
+                    </svg>
+                  </span>
+                  Continue with Google
+                </button>
+
+                <button class="phone-button" type="button">
+                  <span class="phone-icon">◌</span>
+                  Phone number
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-label="LOTUS messaging preview">
+            <div class="app-window glass-panel">
+              <div class="window-header">
+                <div class="window-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="window-title">LOTUS Pulse</div>
+                <div class="status-pill online">Live</div>
+              </div>
+
+              <div class="app-body">
+                <aside class="chat-list">
+                  <div class="chat-item active">
+                    <div class="avatar avatar-green">A</div>
+                    <div class="chat-meta">
+                      <div class="name-row">
+                        <strong>Ari</strong>
+                        <span>2m</span>
+                      </div>
+                      <small>Can’t wait to see you!</small>
+                    </div>
+                  </div>
+
+                  <div class="chat-item">
+                    <div class="avatar avatar-sunset">N</div>
+                    <div class="chat-meta">
+                      <div class="name-row">
+                        <strong>Noah</strong>
+                        <span>9m</span>
+                      </div>
+                      <small>Media shared</small>
+                    </div>
+                  </div>
+
+                  <div class="chat-item">
+                    <div class="avatar avatar-sage">L</div>
+                    <div class="chat-meta">
+                      <div class="name-row">
+                        <strong>Lotus Club</strong>
+                        <span>1h</span>
+                      </div>
+                      <small>3 new members</small>
+                    </div>
+                  </div>
+                </aside>
+
+                <div class="conversation-panel">
+                  <header class="conversation-header">
+                    <div class="profile-block">
+                      <div class="avatar avatar-green large">A</div>
+                      <div>
+                        <h3>Ari Chen</h3>
+                        <span>Online now</span>
+                      </div>
+                    </div>
+                    <button class="call-button">Video</button>
+                  </header>
+
+                  <div class="message-thread">
+                    <div class="message-row incoming">
+                      <div class="bubble">Hey! Are we still meeting at the studio later?</div>
+                    </div>
+                    <div class="message-row outgoing">
+                      <div class="bubble">Yes — I’m almost there. Want me to bring the mood draft?</div>
+                    </div>
+                    <div class="message-row incoming media-row">
+                      <div class="media-card">
+                        <div class="media-thumb"></div>
+                        <div class="media-meta">
+                          <strong>Skyline Moodboard</strong>
+                          <span>2 photos</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="message-row outgoing">
+                      <div class="bubble">Perfect. I’ll share the edits when I arrive.</div>
+                    </div>
+                  </div>
+
+                  <div class="typing-indicator">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+
+                  <div class="composer">
+                    <button class="attach">＋</button>
+                    <input type="text" value="Type a message..." aria-label="Message input" />
+                    <button class="send">Send</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="floating-card card-one glass-panel">
+              <span class="mini-label">Secure rooms</span>
+              <strong>24 members</strong>
+              <div class="avatar-stack">
+                <span class="mini-avatar a1">M</span>
+                <span class="mini-avatar a2">K</span>
+                <span class="mini-avatar a3">J</span>
+              </div>
+            </div>
+
+            <div class="floating-card card-two glass-panel">
+              <div class="pulse-ring"></div>
+              <div class="mini-status">
+                <span class="dot"></span>
+                <strong>Story update</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="features" class="features container">
+          <div class="section-heading">
+            <span class="eyebrow small">Everything your conversations need</span>
+            <h2>Designed for everyday closeness</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card glass-panel">
+              <div class="icon-wrap">
+                <span>✦</span>
+              </div>
+              <h3>Private Chats</h3>
+              <p>Deep, focused conversations with a cleaner, calmer way to connect one-to-one.</p>
+            </article>
+
+            <article class="feature-card glass-panel">
+              <div class="icon-wrap">
+                <span>◎</span>
+              </div>
+              <h3>Groups</h3>
+              <p>Gather your circles, families, teams, and communities in one elegant space.</p>
+            </article>
+
+            <article class="feature-card glass-panel">
+              <div class="icon-wrap">
+                <span>◐</span>
+              </div>
+              <h3>Stories</h3>
+              <p>Share daily moments and quick updates that feel personal, vibrant, and alive.</p>
+            </article>
+
+            <article class="feature-card glass-panel">
+              <div class="icon-wrap">
+                <span>⚡</span>
+              </div>
+              <h3>Fast Messaging</h3>
+              <p>Keep conversations moving with instant delivery and lightning-fast interactions.</p>
+            </article>
+
+            <article class="feature-card glass-panel">
+              <div class="icon-wrap">
+                <span>▣</span>
+              </div>
+              <h3>Media Sharing</h3>
+              <p>Send photos, clips, and voice notes without clutter or friction in your flow.</p>
+            </article>
+
+            <article class="feature-card glass-panel">
+              <div class="icon-wrap">
+                <span>◈</span>
+              </div>
+              <h3>Secure Conversations</h3>
+              <p>Encrypted experiences and thoughtful controls designed to protect what matters.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="experience" class="experience container">
+          <div class="experience-copy">
+            <span class="eyebrow small">Smooth and human</span>
+            <h2>Built to feel calm, responsive, and premium.</h2>
+            <p>
+              LOTUS brings together speed, privacy, and beauty in a single, focused interface. It’s designed to reduce noise and make every message feel intentional.
+            </p>
+            <ul>
+              <li>Instant updates and context-rich chat previews</li>
+              <li>Thoughtful notifications that stay meaningful</li>
+              <li>Flexible media and profile sharing experiences</li>
+            </ul>
+          </div>
+
+          <div class="experience-panel glass-panel">
+            <div class="panel-top">
+              <div class="live-badge"><span class="dot"></span> Now syncing</div>
+              <span class="signal-bars">▁▂▃▅</span>
+            </div>
+
+            <div class="mini-activity">
+              <div class="activity-item">
+                <span class="activity-icon green">✦</span>
+                <div>
+                  <strong>Private room</strong>
+                  <small>Encrypted messages active</small>
+                </div>
+              </div>
+              <div class="activity-item">
+                <span class="activity-icon gold">◌</span>
+                <div>
+                  <strong>Stories live</strong>
+                  <small>3 updates shared today</small>
+                </div>
+              </div>
+              <div class="activity-item">
+                <span class="activity-icon violet">▣</span>
+                <div>
+                  <strong>Media sync</strong>
+                  <small>6 files received</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="security" class="security container">
+          <div class="security-banner glass-panel">
+            <div class="banner-copy">
+              <span class="eyebrow small">Trust by design</span>
+              <h2>Built for real conversations, not just screens.</h2>
+            </div>
+            <div class="banner-pills">
+              <span>Google sign-in</span>
+              <span>Phone sign-in</span>
+              <span>Secure groups</span>
+              <span>Encrypted chat</span>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="pricing" class="site-footer container">
+        <div class="footer-brand">
+          <a href="#top" class="brand">
+            <span class="brand-mark small">
+              <span class="lotus-core"></span>
+              <span class="petal petal-one"></span>
+              <span class="petal petal-two"></span>
+              <span class="petal petal-three"></span>
+              <span class="petal petal-four"></span>
+            </span>
+            <span class="brand-text">LOTUS</span>
+          </a>
+        </div>
+        <div class="footer-links">
+          <a href="#features">Features</a>
+          <a href="#experience">Experience</a>
+          <a href="#security">Security</a>
+        </div>
+        <button class="primary-button">Get Started</button>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
